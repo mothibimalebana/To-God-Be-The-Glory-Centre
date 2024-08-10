@@ -32,6 +32,8 @@ header{
     border-radius: 4px;
     background: var(--Primary-text, #1D2130);
     border-color: #1D2130;
+
+    padding: 8px 16px;
 }
 .navbar>.navbarContainer {
     flex: 1 0 100%;
@@ -70,3 +72,68 @@ a {
     text-decoration: none;
     color: #FFFFFF;
 }
+
+.introduction {
+    display: flex;
+    position: relative;
+    text-align: center;
+    color: #FFFFFF
+}
+.intro-header>.top-left {
+    width: 650px;
+    font-size: 64px;
+
+    position: absolute;
+    top: 8px;
+}
+.bottom{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.bottom-middle {
+    position: absolute;
+    bottom: 8px;
+    left:340px;
+}
+.bottom-left {
+    position: absolute;
+    bottom: 8px;
+    left: 40px;
+}
+.bottom-right{
+    position: absolute;
+    bottom: 8px;
+    right: 40px;
+}
+.introduction>img{
+    width: 100%;
+    height: auto;
+    flex-shrink: 0;
+}
+
+.know-about-us{
+    width: 80%;
+    height: auto;
+    display: flex;
+    gap: 130px;
+    justify-content: space-between;
+
+    padding:80px 100px;
+}
+.about-us-text {
+    display: flex;
+    flex-direction: column;
+}
+.text-header {
+    color: #1D2130;
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 120%;
+}
+.about-us-img>img {
+    width: 100px;
+    height: 100px;
+    flex-shrink: 0;
+} 
