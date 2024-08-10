@@ -26,8 +26,9 @@ header{
     display: flex;
     align-items: center;
 }
-.navlink>button {
+.navlink {
     font-size: 16px;
+    color: #FFFFFF;
 
     border-radius: 4px;
     background: var(--Primary-text, #1D2130);
@@ -136,4 +137,9 @@ a {
     width: 100px;
     height: 100px;
     flex-shrink: 0;
-} 
+}
+
+.help-buttons {
+    display: flex;
+    justify-content: space-around;
+}
