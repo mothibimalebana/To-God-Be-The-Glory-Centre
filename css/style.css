@@ -234,7 +234,9 @@ footer{
     font-style: normal;
     line-height: 44px; /* 183.333% */
 
-    width: 100%
+    width: 100%;
+    padding: 1% 10%;
+    
 }
 .column1 {
     flex: 1 1 auto;
@@ -274,4 +276,26 @@ footer{
     font-style: normal;
     font-weight: 700;
     line-height: 140%; /* 56px */
+}
+.column-header {
+    display: flex;
+    justify-content: flex-end;
+}
+.column-header>form>input{
+border-radius: 4px;
+border: 1px solid rgba(235, 240, 249, 0.30);
+
+width: 25%;
+height: 30px;
+}
+.column-header>form>button{
+    height: 35px;
+
+    border-radius: 4px;
+    background: #FFF;
+    backdrop-filter: blur(40px);
+    border: 0;
+
+    padding: 10px 30px;
+    
 }
