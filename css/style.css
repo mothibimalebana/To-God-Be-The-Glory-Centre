@@ -93,19 +93,25 @@ a {
     align-items: center;
 }
 .bottom-middle {
+    display: flex;
+    justify-content: center;
     position: absolute;
     bottom: 8px;
-    left:340px;
+    left: 0px;
 }
 .bottom-left {
     position: absolute;
     bottom: 8px;
-    left: 40px;
+    left: 2%;
+
+    width: 15%;
 }
 .bottom-right{
     position: absolute;
     bottom: 8px;
-    right: 40px;
+    right: 2%;
+
+    width: 15%;
 }
 .introduction>img{
     width: 100%;
@@ -118,13 +124,24 @@ a {
     height: auto;
     display: flex;
     gap: 130px;
-    justify-content: space-between;
+    justify-content: space-evenly;
 
     padding:80px 100px;
 }
 .about-us-text {
     display: flex;
     flex-direction: column;
+    justify-content: flex-start;
+    gap: 120px;
+    width: 500px;
+    height: 579;
+
+    color: var(--Secondary-text, #525560);
+    line-height: 160%;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    
 }
 .text-header {
     color: #1D2130;
